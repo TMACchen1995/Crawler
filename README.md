@@ -13,7 +13,10 @@ https://www.jianshu.com/p/c547c9a32aef
 
 
 For directory 'ZhiJiangCup' :
-To collect the training set for the contest one, more than 8K pics and corresponding descriptions were crawled. 
+
+To collect the training set for the contest one, more than 8K pics and corresponding descriptions were crawled.
+
 The website of the pics: https://www.shutterstock.com/search/
+
 The website of zhijiangcup:https://zhejianglab.aliyun.com/entrance/231734/information
 
