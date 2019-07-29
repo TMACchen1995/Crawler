@@ -18,7 +18,7 @@ pathes = get_pathes(root, filename)
 def crawl(pathes):
     zhijiangcup_trainingset = {}
     for path in pathes:
-        response = requests.get(path, headers={'User-Agent': 'Chrome/74.0.3724.8'})
+        response = requests.get(path, headers={'User-Agent': 'Chrome/74.0.3724.8'})  #Adding the headers info or not error arise.
         soup = bs(response.text, 'html.parser')
         content = soup.select('div.z_g_b')
 
